@@ -15,10 +15,10 @@ import logging
 import time
 
 # API Keys and Tokens
-consumer_key = 'g3GaapEqdCrXzjawUmWULVrSC'
-consumer_secret = 'PGNDnHfiXRvlWHtVo3wCLt1oNfgHcZkXEkxiosHuQyyzKea67l'
-access_token = '1259652432931336192-ClqQG9XHpRFHpo4Inym3ElKu9ELkyv'
-access_token_secret = 'd7gV3hsPW042Rmnf5p6aS1RnbrnPQ5ElymorYHYQZwkAC'
+consumer_key = 'TWITTER_CONSUMBER_KEY'
+consumer_secret = 'TWITTER_CONSUMER_SECRET'
+access_token = 'TWITTER_ACCESS_TOKEN'
+access_token_secret = 'TWITTER_ACCESS_TOKEN_SECRET'
 
 # Authorization and Authentication
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
